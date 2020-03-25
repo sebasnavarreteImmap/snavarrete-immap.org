@@ -1,2 +1,1 @@
-# snavarrete-immap.org
-TopoJSON maps
+# TopoJSON maps
