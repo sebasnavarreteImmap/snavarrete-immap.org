@@ -1,0 +1,252 @@
+{
+  "currentVersion" : 10.61, 
+  "id" : 0, 
+  "name" : "Vzla_Estados", 
+  "type" : "Feature Layer", 
+  "serviceItemId" : "b3004f8e4e3e4367a47a9d85c95aa1fe", 
+  "displayField" : "ID_ESTADO", 
+  "description" : "", 
+  "copyrightText" : "", 
+  "defaultVisibility" : true, 
+  "editingInfo" : {
+    "lastEditDate" : 1488717907219
+  }, 
+  "relationships" : [], 
+  "isDataVersioned" : false, 
+  "supportsAppend" : true, 
+  "supportsCalculate" : true, 
+  "supportsTruncate" : true, 
+  "supportsAttachmentsByUploadId" : true, 
+  "supportsAttachmentsResizing" : true, 
+  "supportsRollbackOnFailureParameter" : true, 
+  "supportsStatistics" : true, 
+  "supportsAdvancedQueries" : true, 
+  "supportsValidateSql" : true, 
+  "supportsCoordinatesQuantization" : true, 
+  "supportsQuantizationEditMode" : true, 
+  "supportsApplyEditsWithGlobalIds" : false, 
+  "supportsMultiScaleGeometry" : true, 
+  "hasGeometryProperties" : true, 
+  "geometryProperties" : 
+  {
+    "shapeAreaFieldName" : "Shape__Area", 
+    "shapeLengthFieldName" : "Shape__Length", 
+    "units" : "esriMeters"
+  }, 
+  "advancedQueryCapabilities" : {
+    "supportsPagination" : true, 
+    "supportsPaginationOnAggregatedQueries" : true, 
+    "supportsQueryRelatedPagination" : true, 
+    "supportsQueryWithDistance" : true, 
+    "supportsReturningQueryExtent" : true, 
+    "supportsStatistics" : true, 
+    "supportsOrderBy" : true, 
+    "supportsDistinct" : true, 
+    "supportsQueryWithResultType" : true, 
+    "supportsSqlExpression" : true, 
+    "supportsAdvancedQueryRelated" : true, 
+    "supportsCountDistinct" : true, 
+    "supportsLod" : true, 
+    "supportsReturningGeometryCentroid" : true, 
+    "supportsReturningGeometryProperties" : true, 
+    "supportsQueryWithDatumTransformation" : true, 
+    "supportsHavingClause" : true, 
+    "supportsOutFieldSQLExpression" : true, 
+    "supportsMaxRecordCountFactor" : true, 
+    "supportsTopFeaturesQuery" : true
+  }, 
+  "useStandardizedQueries" : true, 
+  "geometryType" : "esriGeometryPolygon", 
+  "minScale" : 0, 
+  "maxScale" : 0, 
+  "extent" : {
+    "xmin" : -661360.03123456473, 
+    "ymin" : 71173.446595313551, 
+    "xmax" : 1037398.9729249432, 
+    "ymax" : 1370343.3522605642, 
+    "spatialReference" : {
+      "wkid" : 32620, 
+      "latestWkid" : 32620
+    }
+  }, 
+  "drawingInfo":{"renderer":{"type":"simple","symbol":{"type":"esriSFS","style":"esriSFSSolid","color":[225,225,225,255],"outline":{"type":"esriSLS","style":"esriSLSSolid","color":[110,110,110,255],"width":0.40000000000000002}},"label":"","description":""},"transparency":0,"labelingInfo":null}, 
+  "allowGeometryUpdates" : true, 
+  "hasAttachments" : false, 
+  "htmlPopupType" : "esriServerHTMLPopupTypeAsHTMLText", 
+  "hasM" : false, 
+  "hasZ" : false, 
+  "objectIdField" : "OBJECTID", 
+  "uniqueIdField" : 
+  {
+    "name" : "OBJECTID", 
+    "isSystemMaintained" : true
+  }, 
+  "globalIdField" : "", 
+  "typeIdField" : "", 
+  "fields" : [
+    {
+      "name" : "OBJECTID", 
+      "type" : "esriFieldTypeOID", 
+      "alias" : "OBJECTID", 
+      "sqlType" : "sqlTypeOther", 
+      "nullable" : false, 
+      "editable" : false, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "ID_ESTADO", 
+      "type" : "esriFieldTypeString", 
+      "alias" : "ID_ESTADO", 
+      "sqlType" : "sqlTypeOther", 
+      "length" : 4, 
+      "nullable" : true, 
+      "editable" : true, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "ESTADO", 
+      "type" : "esriFieldTypeString", 
+      "alias" : "ESTADO", 
+      "sqlType" : "sqlTypeOther", 
+      "length" : 20, 
+      "nullable" : true, 
+      "editable" : true, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "AREAKM2", 
+      "type" : "esriFieldTypeDouble", 
+      "alias" : "AREAKM2", 
+      "sqlType" : "sqlTypeOther", 
+      "nullable" : true, 
+      "editable" : true, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "CAP_ESTADO", 
+      "type" : "esriFieldTypeString", 
+      "alias" : "CAP_ESTADO", 
+      "sqlType" : "sqlTypeOther", 
+      "length" : 50, 
+      "nullable" : true, 
+      "editable" : true, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "VZLA_ZONA", 
+      "type" : "esriFieldTypeString", 
+      "alias" : "VZLA_ZONA", 
+      "sqlType" : "sqlTypeOther", 
+      "length" : 20, 
+      "nullable" : true, 
+      "editable" : true, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "ORINOCO", 
+      "type" : "esriFieldTypeString", 
+      "alias" : "ORINOCO", 
+      "sqlType" : "sqlTypeOther", 
+      "length" : 50, 
+      "nullable" : true, 
+      "editable" : true, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "Shape__Area", 
+      "type" : "esriFieldTypeDouble", 
+      "alias" : "Shape__Area", 
+      "sqlType" : "sqlTypeDouble", 
+      "nullable" : true, 
+      "editable" : false, 
+      "domain" : null, 
+      "defaultValue" : null
+    }, 
+    {
+      "name" : "Shape__Length", 
+      "type" : "esriFieldTypeDouble", 
+      "alias" : "Shape__Length", 
+      "sqlType" : "sqlTypeDouble", 
+      "nullable" : true, 
+      "editable" : false, 
+      "domain" : null, 
+      "defaultValue" : null
+    }
+  ], 
+  "indexes" : [
+    {
+      "name" : "Shape__Area_Index", 
+      "fields" : "Shape__Area", 
+      "isAscending" : true, 
+      "isUnique" : false, 
+      "description" : ""
+    }, 
+    {
+      "name" : "Shape__Length_Index", 
+      "fields" : "Shape__Length", 
+      "isAscending" : true, 
+      "isUnique" : false, 
+      "description" : ""
+    }, 
+    {
+      "name" : "PK__VENEZUEL__F4B70D85ED545C28", 
+      "fields" : "OBJECTID", 
+      "isAscending" : true, 
+      "isUnique" : true, 
+      "description" : "clustered, unique, primary key"
+    }, 
+    {
+      "name" : "user_31778.VENEZUELA_ESTADOS_VZLA_ESTADOS_Shape_sidx", 
+      "fields" : "Shape", 
+      "isAscending" : false, 
+      "isUnique" : false, 
+      "description" : "Shape Index"
+    }, 
+    {
+      "name" : "ORINOCO_Index", 
+      "fields" : "ORINOCO", 
+      "isAscending" : true, 
+      "isUnique" : false, 
+      "description" : "ORINOCO_Index"
+    }, 
+    {
+      "name" : "VZLA_ZONA_Index", 
+      "fields" : "VZLA_ZONA", 
+      "isAscending" : true, 
+      "isUnique" : false, 
+      "description" : "VZLA_ZONA_Index"
+    }
+  ], 
+  "types" : [], 
+  "templates" : [
+    {
+      "name" : "Vzla_Estados", 
+      "description" : "", 
+      "drawingTool" : "esriFeatureEditToolPolygon", 
+      "prototype" : {
+        "attributes" : {
+          "ORINOCO" : "", 
+          "ID_ESTADO" : "", 
+          "ESTADO" : "", 
+          "AREAKM2" : 0, 
+          "CAP_ESTADO" : "", 
+          "VZLA_ZONA" : ""
+        }
+      }
+    }
+  ], 
+  "supportedQueryFormats" : "JSON, geoJSON, PBF", 
+  "hasStaticData" : false, 
+  "maxRecordCount" : 1000, 
+  "standardMaxRecordCount" : 4000, 
+  "tileMaxRecordCount" : 4000, 
+  "maxRecordCountFactor" : 1, 
+  "capabilities" : "Query"
+}
